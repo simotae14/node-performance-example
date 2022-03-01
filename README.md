@@ -60,3 +60,23 @@ or a fixed number of lines
 ## RESTART SERVER
 <pre><code>pm2 restart server
 </code></pre>
+
+## START SERVER AND SPECIFY A FILE TO STORE LOGS
+<pre><code>pm2 start server.js -l logs.txt -i max
+</code></pre>
+
+## SHOW DETAILS SINGLE PROCESS
+<pre><code>pm2 show [pid]
+</code></pre>
+
+## STOP JUST A SINGLE PROCESS
+<pre><code>pm2 stop [pid]
+</code></pre>
+
+## START JUST A SINGLE PROCESS
+<pre><code>pm2 start [pid]
+</code></pre>
+
+## SHOW A MONITOR OF THE ACTIVE PROCESSES
+<pre><code>pm2 monit
+</code></pre>

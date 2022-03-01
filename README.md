@@ -80,3 +80,7 @@ or a fixed number of lines
 ## SHOW A MONITOR OF THE ACTIVE PROCESSES
 <pre><code>pm2 monit
 </code></pre>
+
+## ZERO DOWNTIME RESTART
+<pre><code>pm2 reload server
+</code></pre>
